@@ -98,4 +98,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-13. **`.env.development`**: `GATSBY_GRAPHQL_IDE=playground`
+13. **`.env.development`**: `GATSBY_GRAPHQL_IDE=playground` `CONTENTFUL_SPACE_ID=`
+`CONTENTFUL_ACCESS_TOKEN=`
