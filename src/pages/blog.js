@@ -22,7 +22,7 @@ const BlogPage = () => {
     return (
         <Layout>
             <h1>Blog</h1>
-            <p>Posts will show up here later on.</p>
+            <p>Nouveaux posts à découvrir au fil du temps à partir de septembre 2020</p>
             <ol>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     const path = `/blog/${edge.node.fields.slug}`

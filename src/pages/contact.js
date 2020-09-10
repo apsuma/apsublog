@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const ContactPage = () => {
     return (
         <Layout>
-            <h1>Contact me</h1>
+            <h1>Pour me contacter :</h1>
             <p>Tel. 06 18 58 44 63</p>
             <p>delphine.belet@gmail.com</p>
             <p>Vous pouvez me suivre sur 

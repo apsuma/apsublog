@@ -6,8 +6,8 @@ const AboutPage = () => {
     return (
         <Layout>
             <h1>About me</h1>
-            <p>Here you will discover more about me soon.</p>
-            <p><Link to="/contact">Go to my contact page</Link></p>
+            <p>Après une formation en développement web à la wild code school en php/symfony/mysql, ce site est un projet que j'ai réalisé avec gatsby.js/react/node.js/Sass.</p>
+            <p><Link to="/contact">Visiter ma page contact</Link></p>
         </Layout>
     )
 }

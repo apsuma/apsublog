@@ -6,6 +6,8 @@ date: "2020-09-09"
 
 Voici un nouveau blog sur Angers
 
+![photo brick](./blue-black-on-brick.png)
+
 ## Sujets abordés
 
 1. temps culturels
