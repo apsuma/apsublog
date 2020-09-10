@@ -7,10 +7,18 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'new website for Apsuma',
+    title: 'Découvrir Angers avec Apsuma',
     author: 'Delphine Belet'
   },
   plugins: [
-    'gatsby-plugin-sass'
-  ],
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
+    'gatsby-transformer-remark'
+  ]
 }
