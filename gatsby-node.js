@@ -15,7 +15,9 @@ module.exports.onCreateNode = ({node, actions}) => {
 module.exports.createPages = async ({graphql, actions}) => {
     const { createPage } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
+    const blogTemplate2 = path.resolve('./src/templates/blog2.js')
 
+//page from md files
     const res = await graphql(`
         query {
             allMarkdownRemark {
@@ -35,13 +37,9 @@ module.exports.createPages = async ({graphql, actions}) => {
             }
         })
     })
-}
 
-module.exports.createPages = async ({graphql, actions}) => {
-    const { createPage } = actions
-    const blogTemplate2 = path.resolve('./src/templates/blog2.js')
-
-    const res = await graphql(`
+//pages from api contentful
+    const res2 = await graphql(`
         query {
             allContentfulBlogPost(
                 sort: {
@@ -55,7 +53,7 @@ module.exports.createPages = async ({graphql, actions}) => {
             }}}}
     `)
 
-    res.data.allContentfulBlogPost.edges.forEach((edge) => {
+    res2.data.allContentfulBlogPost.edges.forEach((edge) => {
         createPage({
             component: blogTemplate2,
             path: `/blog2/${edge.node.slug}`,
@@ -64,4 +62,6 @@ module.exports.createPages = async ({graphql, actions}) => {
             }
         })
     })
+
+return Promise.all([res, res2])
 }
