@@ -7,16 +7,19 @@
 .post {
     margin: 1rem 0;
 
+
     a {
-        background: #c0dce9;
+        background: rgba(242,248,250, 0.6);
         color: #000000;
         display: block;
         padding: 1rem;
         text-decoration:none;
+        border-radius: 5px;
+        box-shadow: 0px 2.5px 3.9px rgba(5,104,146, 0.2);
     }
 
     a:hover {
-        background: #56b0d7;
+        background: #d4f3fd;
     }
 
     h2 {

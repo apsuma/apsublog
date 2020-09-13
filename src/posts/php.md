@@ -1,6 +1,6 @@
 ---
 title: "Ressources pour PHP"
-date: "2020-09_10"
+date: "2020-09-10"
 ---
 
 Quelques ressources pour PHP/Symfony/API Platform.

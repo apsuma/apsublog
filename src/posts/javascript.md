@@ -1,6 +1,6 @@
 ---
 title: "Ressources pour JavaScript"
-date: "2020-09_11"
+date: "2020-09-11"
 ---
 
 Bientôt ci-dessous une liste de ressources pour Javascript.
