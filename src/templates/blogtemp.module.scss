@@ -1,0 +1,36 @@
+.post {
+    margin: 1rem 0;
+    
+    li {
+        list-style-type: none;
+    }
+    
+    a {
+        background: #86f0f0;
+        color: #000000;
+        display: block;
+        padding: 1rem;
+        text-decoration:none;
+    }
+
+    a:hover {
+        background: #77D3D3;
+    }
+
+    h1 {
+        color: #3a5f5f;
+    }
+
+    h2 {
+        color: #538B8B;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #538B8B;
+        font-size: .8rem;
+        font-style: italic;
+    }
+
+}

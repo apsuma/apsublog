@@ -4,7 +4,7 @@ date: "2020-09-09"
 
 ---
 
-Voici un nouveau blog sur Angers
+Voici un nouveau blog sur Angers, à découvrir dans l'espace [blog Angers](../blog2)
 
 ![photo brick](./blue-black-on-brick.png)
 

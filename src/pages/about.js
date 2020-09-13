@@ -8,7 +8,7 @@ const AboutPage = () => {
         <Layout>
             <Head title="About" />
             <h1>About me</h1>
-            <p>Après une formation en développement web à la wild code school en php/symfony/mysql, ce site est un projet que j'ai réalisé avec gatsby.js/react/node.js/Sass.</p>
+            <p>Après une formation en développement web à la wild code school de Nantes en php/symfony/mysql, ce site est le premier projet que je réalise avec Gatsby.js/React/Node.js/Sass.</p>
             <p><Link to="/contact">Visiter ma page contact</Link></p>
         </Layout>
     )

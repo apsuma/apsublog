@@ -7,7 +7,7 @@
     margin: 1rem 0;
 
     a {
-        background: #f4f4f4;
+        background: #c0dce9;
         color: #000000;
         display: block;
         padding: 1rem;
@@ -15,11 +15,12 @@
     }
 
     a:hover {
-        background: #e4e4e4;
+        background: #56b0d7;
     }
 
     h2 {
-        margin-bottom: 0;
+        color: #056892;
+        margin-bottom:0;
     }
 
     p {
@@ -27,4 +28,5 @@
         font-size: .8rem;
         font-style: italic;
     }
+
 }

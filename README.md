@@ -1,3 +1,5 @@
+# my first blog project in Gatsby using hello-world starter from Gatsby and advise from  [Great Gatbsy Bootcamp by Andrew Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM). - september, 2020.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -82,6 +84,14 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
+13. **`.env.development`**: create this file and complete it with your token like this in order to use Playground for graphql and use ContentFull CMS to generate content for your blog pages (blog2 in this project).
+``` 
+GATSBY_GRAPHQL_IDE=playground
+CONTENTFUL_SPACE_ID=
+CONTENTFUL_ACCESS_TOKEN=
+```
+
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
@@ -97,6 +107,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-13. **`.env.development`**: `GATSBY_GRAPHQL_IDE=playground` `CONTENTFUL_SPACE_ID=`
-`CONTENTFUL_ACCESS_TOKEN=`

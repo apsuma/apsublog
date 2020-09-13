@@ -23,8 +23,9 @@ const BlogPage = () => {
      
     return (
         <Layout>
-            <Head title="Blog" />
-            <h1>Blog</h1>
+            <Head title="Blog dev" />
+            <h1>Blog dev</h1>
+            <p>sources créées en Markdown</p>
             <ol className={blogStyles.posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     const path = `/blog/${edge.node.fields.slug}`
