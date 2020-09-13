@@ -20,11 +20,11 @@ const AboutPage = () => {
             <h3>Projet GuyBook - 2020</h3>
             <p>Création d’un blog pour test et mise en pratique des nouveautés de Symfony5/API Platform2.5/PHP7.4/Twig</p>
             <h3>Projet : Alyx et Gordon (Client : SmartMyData – 44) - 2020</h3>
-            <p>développement d'une v2 de plateforme SaaS de traitement de document et d’extraction de données (front en Vue.JS/Less/BootstrapVue) et API en PH7.4/ Symfony 5/ API Platform2.5</p>
+            <p>Développement d'une v2 de plateforme SaaS de traitement de document et d’extraction de données. Réalisation : front en Vue.JS/Less/BootstrapVue et API en PH7.4/ Symfony 5/ API Platform2.5</p>
             <h3>Projet : Cap Agora (Client :L’Orange Carré – 44) - 2019/20</h3>
-            <p>prototype d’une plateforme de suivi des politiques locales et de leur réalisation concrète au fil des mandats successifs(interface citoyen et interface administration de projet, multi collectivités), réalisation collective à 4 développeurs (PHP7.3/Symfony4/Twig/Sass/Bootstrap).</p>
+            <p>Prototype d’une plateforme de suivi des politiques locales et de leur réalisation concrète au fil des mandats successifs(interface citoyen et interface administration de projet, multi collectivités), réalisation collective à 4 développeurs (PHP7.3/Symfony4/Twig/Sass/Bootstrap).</p>
             <h3>Projet : Rahanproject (hackathon 48h- réalisé à 5 – partenariat Here Technologies)</h3>
-            <p>application mobile pour perdre du temps  avant un rendez-vous : géolocalisation puis évaluation des points d’intérêts et itinéraires possibles à réaliser en fonction du temps disponible saisi par l’utilisateur à partir de l’emplacement géolocalisé. Génération des itinéraires aller et retour, guide d’aide à la marche. Réalisé avec l’API de HereTechnologie, en JS vanilla. </p>
+            <p>Application mobile pour perdre du temps  avant un rendez-vous : géolocalisation puis évaluation des points d’intérêts et itinéraires possibles à réaliser en fonction du temps disponible saisi par l’utilisateur à partir de l’emplacement géolocalisé. Génération des itinéraires aller et retour, guide d’aide à la marche. Réalisé avec l’API de HereTechnologie, en JS vanilla. </p>
             <h3>Projet : Bol d’Iode (Client : François et Cécile – 44) – 2019</h3>
             <p>Création d’un site web vitrine pour un hôtel avec module de réservation des chambres et formulaire de contact. Réalisation en PHP7.3/CSS/Bootstrap sans framework, en modèle MVC.</p>
             <h2>Pour en savoir plus</h2>
