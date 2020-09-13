@@ -24,8 +24,8 @@ const Blog2Page = () => {
     return (
         <Layout>
             <Head title="Blog Angers" />
-            <h1>Blog Angers</h1>
-            <p>sources créées avec CMS Contentful</p>
+            <h1>Blog A deux pas</h1>
+            <h4>sources créées avec CMS Contentful</h4>
             <ol className={blogStyles.posts}>
                 {data.allContentfulBlogPost.edges.map((edge) => {
                     const path = `/blog2/${edge.node.slug}`
