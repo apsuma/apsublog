@@ -1,7 +1,6 @@
 ---
 title: "Découvrir Angers à pieds"
 date: "2020-09-09"
-
 ---
 
 Voici un nouveau blog sur Angers, à découvrir dans l'espace [blog Angers](../blog2)
